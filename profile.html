@@ -18,30 +18,48 @@
 
     <content>
         <h1>Welcome to my Profile Page</h1>
+        
         <main>
-            <img src="profile-picture.jpeg" alt="Joy Umoekpo's Profile Page">
-            <p>Thank you for visiting my website</p>
+            <img src="profile-picture.jpeg" alt="Joy Umoekpo's Profile Page" id="profile-photo">
+            <p>Thank you for visiting my website! My career goals include becoming a front-end developer and learn at least three programming languages. I listed some fun facts about myself below!</p>
         </main>
 
-        <h2></h2>
-        <p></p>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <form id="">
-            <input type="text" id="">
-            <label for=""></label>
-            <input type="text" id="">
-            <label for=""></label>
-            <input type="text" id="">
-            <label for=""></label>
-        </form>
+        <section>
+            <div>
+                <h2 class="green">My Interests</h2>
+                <ul class="green">
+                    <li>Anime</li>
+                    <li>Writing</li>
+                    <li>Drawing</li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="red">My Skills</h2>
+                <ul class="red">
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+        </section>
+
+        <fieldset>
+            <form id="improvement">
+                <legend>What do you think of my website?</legend>
+                <input type="checkbox" id="improve1" name="improve1" value="great" checked>
+                <label for="improve1">It's awesome!</label>
+                <input type="checkbox" id="improve2" name="improve2" value="okay">
+                <label for="improve2">It's fine</label>
+                <input type="checkbox" id="improve3" name="improve3" value="work">
+                <label for="improve3">Could be a little better</label>
+                <input type="submit">
+            </form>
+        </fieldset>
+
     </content>
 
     <br>
-    <br>
+
     <a href="./home.html">
         << Back </a>
             <script src="about.js"></script>
