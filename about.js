@@ -11,3 +11,14 @@ function handleSubmit(evt) {
 let form = document.querySelector('#contact');
 
 form.addEventListener('submit', handleSubmit);
+
+
+
+function mouseoverEvent(evt) {
+	evt.preventDefault();
+	alert("You're amazing!")
+};
+
+let image = document.querySelector('img')
+
+image.addEventListener('mouseover', mouseoverEvent);
