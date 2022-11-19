@@ -33,6 +33,26 @@
             <button id="random">Restaurant Recommendation</button>
         </section>
 
+        <script>
+            function randomRestaurantSuggestion() {
+
+                let restaurants = [
+                    '<a href="https://www.fegesbbqhouston.com/" target="_blank">Feges BBQ Spring Branch</a>',
+                    '<a href="https://www.nancyshustle.com/" target="_blank">Nancy’s Hustle</a>',
+                    '<a href="https://www.uchikohouston.com/" target="_blank">Uchiko</a>'];
+
+                const random = Math.floor(Math.random() * restaurants.length);
+
+                let result = document.querySelector('#restaurant')
+                result.innerHTML = `<h2>Here is your recommendation! <br> ${restaurants[random]}</h2>`
+
+            }
+
+            let suggestion = document.querySelector('#random');
+
+            suggestion.addEventListener('click', randomRestaurantSuggestion);
+
+        </script>
 
     </content>
 
