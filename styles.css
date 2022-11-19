@@ -87,3 +87,7 @@ fieldset {
 	background-color: yellow;
 	font-size: xx-large;
 }
+
+#suggestion {
+	margin-top: 50px;
+}
