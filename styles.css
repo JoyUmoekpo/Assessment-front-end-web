@@ -82,3 +82,8 @@ fieldset {
 #btnArea > button {
 	justify-content: space-between;
 }
+
+.bigYellow {
+	background-color: yellow;
+	font-size: xx-large;
+}
