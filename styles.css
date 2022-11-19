@@ -91,3 +91,8 @@ fieldset {
 #suggestion {
 	margin-top: 50px;
 }
+
+#random {
+	background-color: #edabad;
+	border-radius: 50%;
+}
